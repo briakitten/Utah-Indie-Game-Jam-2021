@@ -6,6 +6,7 @@ event_inherited();
 visible = true;
 
 action = function() {
+	audio_play_sound(snd_sound, 10, 0);
 	x += 8;
 	if (x >= 112) {
 		visible = false;

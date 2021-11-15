@@ -36,4 +36,3 @@ if (frame_timer.update()) {
 draw_sprite_part_ext(spr_player_spritesheet, -1, xframe * frame_size, yframe * frame_size, frame_size, frame_size, 
 	x + xoffset, y + yoffset, xscale, yscale, c_white, image_alpha);
 
-//draw_self();

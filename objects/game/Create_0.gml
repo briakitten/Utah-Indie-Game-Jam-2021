@@ -11,9 +11,12 @@ enum Dir8 {
 	DOWN_RIGHT = 7
 }
 
+interact_prompt = false;
 spawn_room = room1;
 player_active = true;
 
 collectable_count = 0;
 
-room_goto(intro_room);
+audio_play_sound(snd_Birds, 0, 1);
+
+

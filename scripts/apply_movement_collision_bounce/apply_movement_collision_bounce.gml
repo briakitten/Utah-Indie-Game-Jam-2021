@@ -45,7 +45,7 @@ function apply_movement_collision_bounce(_spd, _dir) {
 			if (collision_line(inst.x, inst.y, instx2, inst.y, self, 0, 0) != noone && y <= inst.y + inst.sprite_height / 4) {
 				ynorm *= -1;
 			} // right side collision
-			if (collision_line(instx2, inst.y, instx2, insty2, self, 0, 0) != noone && x >= instx2 - inst.sprite_width / 4) {
+			if (collision_line(instx2, inst.y, instx2, insty2, self, 0, 0) != noone && x >= instx2 - inst.sprite_width * 0.75) {
 				xnorm *= -1;
 			} // bottom side collision
 			if (collision_line(inst.x, insty2, instx2, insty2, self, 0, 0) != noone && y >= insty2 - inst.sprite_height * 0.75) {
