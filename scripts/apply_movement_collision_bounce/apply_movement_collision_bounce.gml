@@ -42,16 +42,16 @@ function apply_movement_collision_bounce(_spd, _dir) {
 			
 			// top side collision (with distance approximations for more accurate corner bounces)
 			//var checkinst = collision_line(inst.x, inst.y, instx2, inst.y, self, 0, 0);
-			if (collision_line(inst.x, inst.y, instx2, inst.y, self, 0, 0) != noone && y <= inst.y + inst.sprite_height / 4) {
+			if (collision_line(inst.x + 2, inst.y, instx2 - 2, inst.y, self, 0, 0) != noone && y <= inst.y + inst.sprite_height / 4) {
 				ynorm *= -1;
 			} // right side collision
-			if (collision_line(instx2, inst.y, instx2, insty2, self, 0, 0) != noone && x >= instx2 - inst.sprite_width * 0.75) {
+			if (collision_line(instx2, inst.y + 2, instx2, insty2 - 2, self, 0, 0) != noone && x >= instx2 - inst.sprite_width * 0.75) {
 				xnorm *= -1;
 			} // bottom side collision
-			if (collision_line(inst.x, insty2, instx2, insty2, self, 0, 0) != noone && y >= insty2 - inst.sprite_height * 0.75) {
+			if (collision_line(inst.x + 2, insty2, instx2 - 2, insty2, self, 0, 0) != noone && y >= insty2 - inst.sprite_height * 0.75) {
 				ynorm *= -1;
 			} // left side collision
-			if (collision_line(inst.x, inst.y, inst.x, insty2, self, 0, 0) != noone && x <= inst.x + inst.sprite_width / 4) {
+			if (collision_line(inst.x, inst.y + 2, inst.x, insty2 - 2, self, 0, 0) != noone && x <= inst.x + inst.sprite_width / 4) {
 				xnorm *= -1;
 			}
 			
