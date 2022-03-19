@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_prompt","path":"sprites/spr_prompt/spr_prompt.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_prompt",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_player_spritesheet","path":"sprites/spr_player_spritesheet/spr_player_spritesheet.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_player_spritesheet",
     "tags": [],
     "resourceType": "GMSequence",

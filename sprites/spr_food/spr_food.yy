@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_food","path":"sprites/spr_food/spr_food.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_food",
     "tags": [],
     "resourceType": "GMSequence",
